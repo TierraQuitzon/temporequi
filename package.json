@@ -1,0 +1,42 @@
+{
+  "name": "temporequi",
+  "version": "1.0.0",
+  "author": "ErwinMayer",
+  "description": "Pure JS PowerPoint 97-2003 (PPT) Parser",
+  "keywords": [
+    "ppt",
+    "non",
+    "powerpoint",
+    "office"
+  ],
+  "bin": {
+    "ppt": "./bin/ppt.njs"
+  },
+  "main": "./ppt",
+  "dependencies": {
+    "codepage": "~1.3.4",
+    "cfb": ">=0.10.0",
+    "commander": ""
+  },
+  "devDependencies": {
+    "mocha": "",
+    "uglify-js": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TierraQuitzon/temporequi.git"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "ppt.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/TierraQuitzon/temporequi.git/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "homepage": "https://github.com/TierraQuitzon/temporequi.git"
+}
